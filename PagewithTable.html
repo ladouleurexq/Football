@@ -47,15 +47,15 @@
 
         <p>
             <input type="checkbox" name="axis-y" value="rating" id="axis-y-rating">
-            <label for="axis-y-rating">Рейтинг FIFA</label>
+            <label for="axis-y-rating">Минимальное количество голов</label>
             <br>
 
             <input type="checkbox" name="axis-y" value="goals" id="axis-y-goals">
-            <label for="axis-y-goals">Количество голов</label>
+            <label for="axis-y-goals">Максимальное количество голов</label>
             <br>
 
             <input type="checkbox" name="axis-y" value="count" id="axis-y-count">
-            <label for="axis-y-count">Количество футболистов</label>
+            <label for="axis-y-count">Среднее количество голов</label>
         </p>
 
 
@@ -107,10 +107,10 @@
 
         <p>
             <label for="goals-from">Количество голов от:</label>
-            <input type="number" name="goals-from" id="goals-from" min="0">
+            <input type="number" name="goals-from" id="goals-from" min="0" max="1000">
 
             <label for="goals-to">до:</label>
-            <input type="number" name="goals-to" id="goals-to" min="0">
+            <input type="number" name="goals-to" id="goals-to" min="0" max="1000">
         </p>
 
         <p>
@@ -131,12 +131,13 @@
             <label for="sort1">Первый уровень:</label>
 
             <select name="sort1" id="sort1">
-                <option>Футболист</option>
-                <option>Страна</option>
-                <option>Позиция</option>
-                <option>Клуб</option>
-                <option>Рейтинг FIFA</option>
-                <option>Количество голов</option>
+                <option value="no">Нет</option>
+                <option value="football">Футболист</option>
+                <option value="country">Страна</option>
+                <option value="position">Позиция</option>
+                <option value="club">Клуб</option>
+                <option value="rating">Рейтинг FIFA</option>
+                <option value="goals_count">Количество голов</option>
             </select>
 
             <input type="checkbox" name="desc1" id="desc1">
@@ -148,13 +149,13 @@
             <label for="sort2">Второй уровень:</label>
 
             <select name="sort2" id="sort2">
-                <option>Нет</option>
-                <option>Футболист</option>
-                <option>Страна</option>
-                <option>Позиция</option>
-                <option>Клуб</option>
-                <option>Рейтинг FIFA</option>
-                <option>Количество голов</option>
+                <option value="no">Нет</option>
+                <option value="football">Футболист</option>
+                <option value="country">Страна</option>
+                <option value="position">Позиция</option>
+                <option value="club">Клуб</option>
+                <option value="rating">Рейтинг FIFA</option>
+                <option value="goals_count">Количество голов</option>
             </select>
 
             <input type="checkbox" name="desc2" id="desc2">
@@ -166,13 +167,13 @@
             <label for="sort3">Третий уровень:</label>
 
             <select name="sort3" id="sort3">
-                <option>Нет</option>
-                <option>Футболист</option>
-                <option>Страна</option>
-                <option>Позиция</option>
-                <option>Клуб</option>
-                <option>Рейтинг FIFA</option>
-                <option>Количество голов</option>
+                <option value="no">Нет</option>
+                <option value="football">Футболист</option>
+                <option value="country">Страна</option>
+                <option value="position">Позиция</option>
+                <option value="club">Клуб</option>
+                <option value="rating">Рейтинг FIFA</option>
+                <option value="goals_count">Количество голов</option>
             </select>
 
             <input type="checkbox" name="desc3" id="desc3">
@@ -191,7 +192,7 @@
 <hr>
 
 <table border="1" align="center">
-
+    <thead>
     <tr>
         <th>№</th>
         <th>Футболист (ФИО)</th>
@@ -201,7 +202,9 @@
         <th>Рейтинг FIFA</th>
         <th>Количество голов</th>
     </tr>
+    </thead>
 
+    <tbody>
     <tr>
         <td>1</td>
         <td>Лионель Месси</td>
@@ -901,6 +904,7 @@
         <td>86</td>
         <td>70</td>
     </tr>
+    </tbody>
 
 </table>
 
