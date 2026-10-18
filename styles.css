@@ -1,0 +1,65 @@
+
+.cards {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 0;
+}
+
+.card {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    text-align: center;
+    font-size: 14px;
+}
+
+.card img {
+    width: 84px;
+    height: 84px;
+    border-radius: 100px;
+}
+
+.card h3 {
+    font-size: 14px;
+    margin: 3px 0 0;
+}
+
+.card p {
+    margin: 0 0 3px;
+}
+
+.card a {
+    display: inline-block;
+    background: #2196F3;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 1px 5px;
+}
+
+
+.header {
+    background: #4DA9F3;
+    color: white;
+    font-weight: bold;
+    padding: 12px 15px;
+}
+
+.menu {
+    margin: 4px 0 12px 4px;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 12px 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a.active {
+    background: #216EAF;
+    color: white;
+}
+
