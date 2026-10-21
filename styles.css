@@ -1,4 +1,10 @@
 
+body {
+    background-color: #F3F9FF;
+    font-size: 18px;
+    font-family: Arial;
+}
+
 .cards {
     width: 90%;
     margin: 10px auto;
@@ -11,7 +17,7 @@
     width: 20%;
     vertical-align: top;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .card img {
@@ -21,7 +27,7 @@
 }
 
 .card h3 {
-    font-size: 14px;
+    font-size: 16px;
     margin: 3px 0 0;
 }
 
@@ -129,8 +135,6 @@
     display: block;
 }
 
-
-
 .articles {
     width: 90%;
     margin: 15px auto;
@@ -145,7 +149,7 @@
     width: 50%;
     box-sizing: border-box;
     padding: 0 10px;
-    font-size: 20px;
+    font-size: 22px;
     vertical-align: top;
 }
 
@@ -159,14 +163,13 @@
     box-sizing: border-box;
     vertical-align: top;
     padding: 10px;
-    font-size: 14px;
+    font-size: 16px;
     overflow: hidden;
 }
 
 .article img {
     float: left;
     width: 25%;
-    height: 40%;
     margin: 0 12px 8px 0;
 }
 
