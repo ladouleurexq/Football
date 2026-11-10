@@ -5,11 +5,22 @@ body {
     font-family: Arial;
 }
 
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    color: red;
+}
+
 .cards {
     width: 90%;
     margin: 10px auto;
     text-align: center;
-    font-size: 0;
 }
 
 .card {
@@ -26,7 +37,7 @@ body {
     border-radius: 100px;
 }
 
-.card h3 {
+.card h2 {
     font-size: 16px;
     margin: 3px 0 0;
 }
@@ -45,11 +56,11 @@ body {
     padding: 1px 5px;
 }
 
-
 .header {
     background: #4DA9F3;
     color: white;
     font-weight: bold;
+    font-size: 18px;
     padding: 12px 15px;
 }
 
@@ -74,10 +85,6 @@ body {
 .banner {
     width: 90%;
     margin: 10px auto;
-}
-
-.banner-row {
-    font-size: 0;
 }
 
 .banner-left {
@@ -140,21 +147,13 @@ body {
     margin: 15px auto;
 }
 
-.articles-heading {
-    font-size: 0;
-}
-
-.articles-heading h2 {
+.articles h2 {
     display: inline-block;
     width: 50%;
     box-sizing: border-box;
     padding: 0 10px;
     font-size: 22px;
     vertical-align: top;
-}
-
-.article-row {
-    font-size: 0;
 }
 
 .article {
